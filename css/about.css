@@ -1,0 +1,121 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 100px; /* Ensure content starts below the navbar */
+}
+
+/* About Us Section */
+.about-us {
+    display: flex;
+    background-color: rgb(245, 241, 241);
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap; /* Ensure content wraps within the container */
+   
+}
+
+/* Image Styles */
+.image img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    max-height: 400px;
+    padding: 20px;
+    margin-top: 20px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.me img{
+    width: 100%;
+    
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    margin-top: 20px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+
+/* Content Styles */
+.content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1; /* Allow the content to take up the remaining space */
+}
+
+.content h2 {
+    color: #b83838;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Learn More Button Styles */
+.learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0e0d0d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.learn-more:hover {
+    background-color: #a12f2f;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Page Title Styles */
+.breadcrumb-section {
+    background-color: #fdfdfd;
+    height: 60px;
+    padding: 10px;
+    margin-top: 60px; /* Increased margin to ensure visibility */
+    position: relative; /* Ensure it stays in its place */
+    z-index: 1; /* Brings the breadcrumb section in front of other elements */
+}
+
+.breadcrumb h2 {
+    color: #000000;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 0;
+}

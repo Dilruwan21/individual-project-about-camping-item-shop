@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('mc2.jpeg'); /* Add the path to your background image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+}
+
+/* Hero Section Styles */
+.hero {
+    height: 100vh; /* Adjusted height to take the full viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6); /* Optional: a semi-transparent overlay */
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.explore-btn {
+    padding: 10px 20px;
+    background-color: #ff6262;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.explore-btn:hover {
+    background-color: #FF8B75;
+}
+
+/* Items Section */
+.category .items {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.category .item {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.category .item h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.category .item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.category .item p {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+.category .item .btn {
+    background-color: #FF6F61;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.category .item .btn:hover {
+    background-color: #FF8B75;
+}
+
+/* Explore Categories Section Styles */
+.categories {
+    padding: 50px 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+}
+
+.categories h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.category-links {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.category-links a {
+    padding: 15px 30px;
+    background-color: #FF6F61;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.category-links a:hover {
+    background-color: #FF8B75;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+

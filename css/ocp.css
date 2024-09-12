@@ -1,0 +1,68 @@
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.confirmation {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.confirmation h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #FF6F61;
+}
+
+.confirmation p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.order-details {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.order-details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.order-details ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.order-details ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.order-details p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 12px 30px;
+    background-color: #FF6F61;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    background-color: #FF8B75;
+}
